@@ -1,0 +1,152 @@
+/**
+ * Global Reset
+ */
+
+* {
+  padding:0;
+  margin:0;
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:1em 0; }
+li, dd { margin-left:5%; }
+fieldset { padding: .5em; }
+select option{ padding:0 5px; }
+
+.access{ display:none; } /* For accessibility related elements */
+.clear{ clear:both; height:0px; font-size:0px; line-height:0px; overflow:hidden; }
+a{ outline:none; }
+a img{ border:none; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .clearfix { height: 1%; }
+.clearfix { display:inline-block; }
+.clearfix { display: block; }
+
+
+
+/**
+ * Basic styling
+ */
+ body {
+   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+   color: $text-color;
+   background: $background-color;
+   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+   border-top: 4px solid $brand-color;
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-feature-settings: "kern" 1;
+   -moz-font-feature-settings: "kern" 1;
+   -o-font-feature-settings: "kern" 1;
+   font-feature-settings: "kern" 1;
+   font-kerning: normal;
+ }
+
+ strong {
+   font-weight: bold;
+ }
+
+ hr {
+   margin: 20px 0 25px 0;
+   text-align: center;
+   letter-spacing: 3px;
+   font-size: 20px;
+   color: #ddd;
+   border: none;
+ }
+ hr:before {
+   content: '\2022 \2022 \2022 \2022 \2022';
+ }
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($link-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+ pre {
+   margin: 16px 0;
+   padding: 10px;
+   color: #444;
+   background: #fff;
+   border-bottom: 1px solid #eee;
+   border-radius: 4px;
+   overflow: auto;
+   -webkit-font-smoothing: subpixel-antialiased;
+ }
+ code{
+   padding: 0 4px;
+   font-family: $code-font-family;
+   font-size: 0.9em;
+   color: $brand-color;
+   background: $code-background-color;
+   border-radius: 3px;
+ }
+ pre code {
+   padding: 0;
+   color: inherit;
+   background: inherit;
+   border-radius: 0;
+ }
+ code span.global {
+   color: #3388DD;
+ }
+ code span.brackets {
+   color: #777777;
+ }
+ code span.string {
+   color: #BC6710;
+ }
+ code span.symbol, code span.selectors {
+   color: #1199EE;
+ }
+ code span.properties {
+   color: #BB4411;
+ }
+ code span.keywords {
+   color: #44BB22;
+ }
+ code span.comment {
+   color: #BCBCBC;
+ }
+ code span.shell {
+   background:#f1f1f1;
+ }
+
+ code.html span.tag, code.xaml span.tag {
+   color: #BB4411;
+ }
+ code.html span.attribute, code.xaml span.attribute {
+   color: #44BB22;
+ }
+ code.html span.string, code.xaml span.string {
+   color: blue;
+ }
+ code.html span.comment, code.xaml span.comment {
+   color: #999999;
+ }
+ code.html span.doctype {
+   color: #D7FF80;
+ }

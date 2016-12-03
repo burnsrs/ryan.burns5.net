@@ -1,0 +1,15 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<channel>
+<title>Spike update information</title>
+<description>Spike update information</description>
+<item>
+<title>Spike 0.1.0</title>
+<sparkle:releaseNotesLink xml:lang="en">https://burnsra.github.io/projects/spike/releasenotes/0.1.0.en.html</sparkle:releaseNotesLink>
+<pubDate>Tue, 01 Nov 2016 07:49:58 +0900</pubDate>
+<sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+<sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+<sparkle:version>167</sparkle:version>
+<link>https://burnsra.github.io/projects/spike</link>
+</item>
+</channel>
+</rss>

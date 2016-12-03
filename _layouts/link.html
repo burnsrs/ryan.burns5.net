@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <p class="date">{{ page.date | date: "%B %e, %Y" }}</p>
+    <h1 class="link"><a href="{{ page.link }}">{{ page.title }}</a></h1>
+  </header>
+  <div>
+    {{ content }}
+  </div>
+</article>
+
+{% include follow.html %}
+
+{% include comments.html %}
