@@ -22,8 +22,12 @@ A game in a world of endless bocks where you get to make an adventure by using y
 
 ## Undertale
 
-A game where you have fallen down a hole on a mountain to fall into the UNDERGROUND a place full of monsters but you get to chose your path you can go into the pacifist route or the genocide run!
+A game where you have fallen down a hole on a mountain to fall into the UNDERGROUND a place full of monsters but you get to chose your path you can go into the pacifist route or the genocide run! Once again link is not on here ask parents to download it. -_-
 
 ## Starbound
 
 A game where you take place as a astronaut where you have lost your fuel for your ship but you have enough power to get to a close planet, you think there is civilization but get suprised to see whats actually there!
+ONCE AGAIN it not on here ask parents to download it!!! RAAAAAAAAHGHHGH :(
+## QuizletLIVE
+
+A mode on quizlet where you are put in a group of 2, 3 or 4 and you and your team has to find the teamate who has the correct answer for a reading vocabulary question!

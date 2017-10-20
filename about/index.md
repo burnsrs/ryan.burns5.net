@@ -1,11 +1,10 @@
----
+
 layout: default
-title: About Ryan Burns
----
+title: About
 
-# Hi. I'm Ryan.
+#WELCOME
 
-Hi, my name is Ryan Burns and I use this site to list cool things that happen either to me or around the world.
+Hi, my name is Ryan  and I use this site to list cool things that happen either to me or around the world.
 
 Thing that i enjoy doing are...
 Reading,writing a story,playing games with friends, playing games  with self and more.
